@@ -24,6 +24,10 @@ The component must be installed in the GAC to use it from classic ASP. Contact
 the MSDN Library on how to do that.
 <http://msdn.microsoft.com/en-us/library/dkkx7f79.aspx>
 
+or run the followin as Administrator
+ copy bin\1.0.1\SMTPSvg.dll %WINDIR%\SysWOW64\
+ %WINDIR%\Microsoft.NET\Framework\v2.0.50727\regasm.exe /tlb /codebase %WINDIR%\SysWOW64\SMTPSvg.dll
+
 Lincense
 ========
 GPL2 or newer, contact me if you feel you need something else.
