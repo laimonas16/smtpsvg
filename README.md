@@ -26,8 +26,9 @@ the MSDN Library on how to do that.
 
 or run the followin as Administrator
 
- copy bin\1.0.1\SMTPSvg.dll %WINDIR%\SysWOW64\
- %WINDIR%\Microsoft.NET\Framework\v2.0.50727\regasm.exe /tlb /codebase %WINDIR%\SysWOW64\SMTPSvg.dll
+  copy bin\1.0.1\SMTPSvg.dll %WINDIR%\SysWOW64\
+ 
+  %WINDIR%\Microsoft.NET\Framework\v2.0.50727\regasm.exe /tlb /codebase %WINDIR%\SysWOW64\SMTPSvg.dll
 
 Lincense
 ========
